@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "webpack issue",
   "scripts": {
-    "start": "npm run dev",
-    "dev": "webpack serve --open true"
+    "webpack": "webpack serve --open true",
+    "browser": "http-server ./browser"
   },
   "keywords": [],
   "author": "zphhhhh",
   "license": "ISC",
   "devDependencies": {
     "html-webpack-plugin": "^4.5.0",
+    "http-server": "^0.12.3",
     "webpack": "^5.11.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
