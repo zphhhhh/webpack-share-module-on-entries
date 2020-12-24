@@ -20,3 +20,8 @@ This is math.js!
 index 3
 index2 3
 ```
+### Why?
+
+ES6 import is static, it is the some object no matter how many times it is imported.
+
+But webpack make it to be a new object every time it is imported be different entries.
